@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Interactive Resume</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Muhammad Ali</h1>
+        
+        </header>
+
+        <section id="personal-info">
+            <h2>Personal Information</h2>
+            <p>Email: alishakeel@example.com</p>
+            <p>Phone: 03194265416</p>
+        </section>
+
+        <section id="education">
+            <h2>Education</h2>
+            <ul>
+                <li>Bachelor of Science in Computer Science </li>
+            </ul>
+        </section>
+
+        <section id="skills">
+            <h2>Skills</h2>
+            <ul>
+                <li>HTML, CSS, JavaScript</li>
+                <li>React, TypeScript</li>
+                <li>Node.js, Express</li>
+            </ul>
+            <button onclick="toggleVisibility('skills')">Toggle Skills</button>
+        </section>
+
+        <section id="work-experience">
+            <h2>Work Experience</h2>
+            <ul>
+                <li>Frontend Developer </li>
+                <li>Intern at Web Dev Solutions</li>
+            </ul>
+            <button onclick="toggleVisibility('skills')"> Skills</button>
+            <button onclick="toggleVisibility('work-experience')"> Work Experience</button>
+
+        </section>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>
